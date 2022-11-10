@@ -2,6 +2,9 @@
   "name": "type_script",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.11.9",
